@@ -1,7 +1,6 @@
 package com.ecloud.pulltozoomview.demo;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Menu;
@@ -10,6 +9,8 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ecloud.pulltozoomview.PullToZoomListViewEx;
 
@@ -24,7 +25,7 @@ import com.ecloud.pulltozoomview.PullToZoomListViewEx;
  * 2014/9/4        ZhuWenWu            1.0                    1.0
  * Why & What is modified:
  */
-public class PullToZoomListActivity extends ActionBarActivity {
+public class PullToZoomListActivity extends AppCompatActivity {
 
     private PullToZoomListViewEx listView;
 

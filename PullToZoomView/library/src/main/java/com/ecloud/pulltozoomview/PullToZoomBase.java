@@ -3,7 +3,6 @@ package com.ecloud.pulltozoomview;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
@@ -200,7 +199,7 @@ public abstract class PullToZoomBase<T extends View> extends LinearLayout implem
     }
 
     @Override
-    public boolean onTouchEvent(@NonNull MotionEvent event) {
+    public boolean onTouchEvent(MotionEvent event) {
         if (!isPullToZoomEnabled() || isHideHeader()) {
             return false;
         }

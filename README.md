@@ -1,6 +1,11 @@
 PullZoomView
 ============
 
+fork update:
+
+- upgrade support to androidx.
+- upgrade gradle and plugin version 
+
 An Android custom ListView and ScrollView with pull to zoom-in.
 <br>
 ![](https://raw.githubusercontent.com/Frank-Zhu/PullZoomView/master/art/pull-to-zoom.gif)

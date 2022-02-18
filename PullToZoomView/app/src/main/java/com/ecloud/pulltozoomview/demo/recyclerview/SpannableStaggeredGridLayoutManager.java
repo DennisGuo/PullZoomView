@@ -1,6 +1,6 @@
 package com.ecloud.pulltozoomview.demo.recyclerview;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by manishdeora on 14/05/15.

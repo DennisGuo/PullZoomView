@@ -2,9 +2,6 @@ package com.ecloud.pulltozoomview.demo.recyclerview;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,13 +10,17 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.ecloud.pulltozoomview.demo.PullToZoomRecyclerViewEx;
 import com.ecloud.pulltozoomview.demo.R;
 
 /**
  * Created by manishdeora on 13/05/15.
  */
-public class PullToZoomRecyclerActivity extends ActionBarActivity {
+public class PullToZoomRecyclerActivity extends AppCompatActivity {
     private PullToZoomRecyclerViewEx listView;
 
 

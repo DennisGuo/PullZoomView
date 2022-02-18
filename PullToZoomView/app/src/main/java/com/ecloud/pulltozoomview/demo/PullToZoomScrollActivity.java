@@ -1,7 +1,8 @@
 package com.ecloud.pulltozoomview.demo;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,7 +24,7 @@ import com.ecloud.pulltozoomview.PullToZoomScrollViewEx;
  * 2014/9/4        ZhuWenWu            1.0                    1.0
  * Why & What is modified:
  */
-public class PullToZoomScrollActivity extends ActionBarActivity {
+public class PullToZoomScrollActivity extends AppCompatActivity {
 
     private PullToZoomScrollViewEx scrollView;
 
