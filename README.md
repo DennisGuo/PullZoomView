@@ -24,38 +24,10 @@ In your `build.gradle`:
 
 ```gradle
  dependencies {
-   compile 'com.github.frank-zhu:pullzoomview:1.0.0'
+   compile 'com.github.dennisguo:pullzoomview:1.0.1'
  }
 ```
-or Maven:
 
-```xml
-<dependency>
-  <groupId>com.github.frank-zhu</groupId>
-  <artifactId>pullzoomview</artifactId>
-  <version>1.0.0</version>
-  <type>aar</type>
-</dependency>
-```
-
-Using this library?
-============
-If you're using this library in one of your projects just [send me a G+ message](https://plus.google.com/u/0/108962319538026346008/posts/p/pub) and I'll add your project to the list.
-
-Contribution
-============
-### Pull requests are welcome!
-
-If you have a bug to report a feature to request or have other questions, [file an issue](https://github.com/Frank-Zhu/PullZoomView/issues). I'll try to answer as soon as I can.
-
-Thanks
-============
-Developers @matrixxun
-[PullToZoomInListView](https://github.com/matrixxun/PullToZoomInListView)
-
-About me
-============
-[Click Me](http://frank-zhu.github.io/about/)
 
 License
 ============
