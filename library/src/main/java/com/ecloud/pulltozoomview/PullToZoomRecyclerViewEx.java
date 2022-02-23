@@ -1,10 +1,8 @@
-package com.ecloud.pulltozoomview.demo;
+package com.ecloud.pulltozoomview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.SystemClock;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -14,8 +12,9 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 
-import com.ecloud.pulltozoomview.PullToZoomBase;
-import com.ecloud.pulltozoomview.demo.recyclerview.RecyclerViewHeaderAdapter;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 
 /**
  * Author:    ZhuWenWu

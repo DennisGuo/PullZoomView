@@ -8,7 +8,7 @@ fork update:
 
 An Android custom ListView and ScrollView with pull to zoom-in.
 <br>
-![](https://raw.githubusercontent.com/Frank-Zhu/PullZoomView/master/art/pull-to-zoom.gif)
+![](./art/pull-to-zoom.gif)
 
 Features
 ============
@@ -24,7 +24,7 @@ In your `build.gradle`:
 
 ```gradle
  dependencies {
-   compile 'com.github.dennisguo:pullzoomview:1.0.1'
+   implementation 'io.github.dennisguo:pullzoomview:1.0.2'
  }
 ```
 

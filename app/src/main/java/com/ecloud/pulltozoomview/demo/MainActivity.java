@@ -8,8 +8,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ecloud.pulltozoomview.demo.recyclerview.PullToZoomRecyclerActivity;
-
 
 public class MainActivity extends AppCompatActivity {
 

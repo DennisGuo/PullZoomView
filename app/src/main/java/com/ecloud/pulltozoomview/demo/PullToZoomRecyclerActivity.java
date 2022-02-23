@@ -1,4 +1,4 @@
-package com.ecloud.pulltozoomview.demo.recyclerview;
+package com.ecloud.pulltozoomview.demo;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ecloud.pulltozoomview.demo.PullToZoomRecyclerViewEx;
-import com.ecloud.pulltozoomview.demo.R;
+import com.ecloud.pulltozoomview.PullToZoomRecyclerViewEx;
+import com.ecloud.pulltozoomview.RecyclerViewHeaderAdapter;
 
 /**
  * Created by manishdeora on 13/05/15.
